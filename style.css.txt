@@ -1,0 +1,14 @@
+body { 
+background-color: #996633;
+color: #339900;
+}
+h1 {
+color: #cc3333;
+}
+#div {
+color: #3366ff;
+background-color: #ff9900;
+}
+.style {
+color: #ff3333;
+}
