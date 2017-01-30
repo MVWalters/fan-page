@@ -1,14 +1,59 @@
 body { 
-background-color: #996633;
-color: #339900;
+background-color: #cc9966;
+color: #336600;
+font-family: georgia, serif;
+}
+title {
+font-family: jokerman ;
 }
 h1 {
 color: #cc3333;
+text-transform: uppercase;
+font-family: jokerman;
+font-weight: bold;
+}
+h2 {
+color: #006633;
+font-family: "lucida Handwriting", cursive;
+}
+h3 {
+color: #ffff33;
+}
+ul {
+list-style-type: circle;
+color: #ffff33;
+font-weight: bold;
+}
+div {
+background-image: url(images/woodstr.jpg);
+background-repeat: no-repeat;
+background-position: right;
+background-clip: padding-box;
+background-size: cover;
+display: block;
+}
+footer {
+font-style: italic;
+font-size: .8em
 }
 #div {
-color: #3366ff;
-background-color: #ff9900;
+color: #00cc00;
+background-color: #ffcc33;
+}
+.bold {
+font-weight: bold;
+}
+.hyperlinks {
+font-size: large;
+font-weight: bold;
 }
 .style {
 color: #ff3333;
+}
+figcaption {
+font-size: .7em;
+font-style: italic;
+}
+a {
+text-decoration: none;
 }
