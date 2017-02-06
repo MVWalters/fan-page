@@ -55,7 +55,7 @@ list-style-type: circle;
 color: #ffff33;
 font-weight: bold;
 }
-div {
+#div {
 background-image: url(images/woodstr.JPG);
 background-repeat: no-repeat;
 background-position: right;
