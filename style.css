@@ -1,23 +1,54 @@
+@import {
+url ("https://fonts.googleapis.com/css?family=Flavors|Griffy");
+}
 body { 
-background-color: #cc9966;
+background-color: #99ccff;
+background-repeat: no-repeat;
 color: #336600;
 font-family: georgia, serif;
+background: linear-gradient(-20deg, #33cc00, #99ccff);
+margin: 30px;
 }
 title {
-font-family: jokerman ;
+font-family:  jokerman, 'Griffy' ;
+}
+header {
+padding: 5px;
+margin: 20px;
+
+}
+main {
+width: 80%;
+text-align: center;
+padding: 35px;
+padding-top: 0px;
+
+
 }
 h1 {
 color: #cc3333;
 text-transform: uppercase;
-font-family: jokerman;
+font-family: jokerman, 'Flavors', 'Griffy', cursive;
 font-weight: bold;
+margin-top: 20px;
 }
 h2 {
 color: #006633;
 font-family: "lucida Handwriting", cursive;
+margin-top: 16px;
+text-shadow: 2px 1px 1px #666;
 }
 h3 {
 color: #ffff33;
+margin-top: 12px
+}
+h4 {
+background-color: #ff9900;
+opacity: 0.4;
+padding: 10px;
+border-radius: 15px;
+margin-top: 8px;
+
 }
 ul {
 list-style-type: circle;
@@ -57,3 +88,21 @@ font-style: italic;
 a {
 text-decoration: none;
 }
+#litter {
+background-image: url(images/nolitter.png);
+background-repeat: no-repeat;
+background-position: right;
+background-size: contain;
+text-align: left;
+padding-right: 150px;
+
+
+}
+#bodybox {
+background: linear-gradient(-45deg, #cc9966, #ccff66);
+box-shadow: 4px 4px 4px #828282;
+padding: 0px 20px 10px;
+
+}
+
+
