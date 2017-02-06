@@ -1,6 +1,4 @@
-@import {
-url ("https://fonts.googleapis.com/css?family=Flavors|Griffy");
-}
+
 body { 
 background-color: #99ccff;
 background-repeat: no-repeat;
@@ -65,7 +63,7 @@ display: block;
 }
 footer {
 font-style: italic;
-font-size: .8em
+font-size: .8em;
 color: #00cc00;
 background-color: #ffcc33;
 }
