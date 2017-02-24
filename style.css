@@ -1,10 +1,9 @@
 
 body { 
-background-color: #99ccff;
+background-color: #fba7ab;
 background-repeat: no-repeat;
-color: #336600;
+color: #0d4e4a;
 font-family: georgia, serif;
-background: linear-gradient(-20deg, #33cc00, #99ccff);
 
 margin-left: 0;
 margin-top: 0;
@@ -15,7 +14,7 @@ font-family:  jokerman, 'Griffy' ;
 }
 
 header {
-background: linear-gradient(  #339900, #336600);
+background: #074600;
 position: fixed;
 width: 100%;
 padding: 5px;
@@ -34,33 +33,34 @@ padding-top: 100px;
 }
 
 h1 {
-color: #cc3333;
+color: #fba7ab;
 text-transform: uppercase;
 font-family: jokerman, 'Flavors', 'Griffy', cursive;
 font-weight: bold;
-margin-top: 20px;
+margin-top: 30px;
 }
 
 h2 {
 
-color: #006633;
+color: #074600;
 font-family: "lucida Handwriting", cursive;
-margin-top: 35px;
+margin-top: 45px;
 margin-bottom: 25px;
 text-shadow: 2px 1px 1px #666;
 }
 
 h3 {
-color: #999999;
-margin-top: 16px
+color: #0d4e4a;
+margin-top: 26px
 }
 
 h4 {
-background-color: #ff9900;
+background-color: #074600;
+color: #fba7ab;
 opacity: 0.4;
 padding: 10px;
 border-radius: 15px;
-margin-top: 12px;
+margin-top: 22px;
 }
 
 p {
@@ -69,8 +69,8 @@ margin: 24px;
 
 ul {
 list-style-type: circle;
-color: #999999;
-margin-top: 12px;
+color: #0d4e4a;
+margin-top: 22px;
 }
 li {
 margin-top: 20px;
@@ -100,11 +100,11 @@ font-weight: bold;
 .hyperlinks {
 font-size: large;
 font-weight: bold;
-color: #3399cc;
+color: #074600;
 }
 
 .style {
-color: #ff3333;
+color: #0d4e4a;
 }
 
 figcaption {
@@ -116,17 +116,9 @@ a {
 text-decoration: none;
 }
 
-#litter {
-background-image: url(images/nolitter.png);
-background-repeat: no-repeat;
-background-position: right;
-background-size: contain;
-text-align: left;
-padding-right: 150px;
-}
 
 #bodybox {
-background: linear-gradient(-45deg, #cc9966, #ccff66);
+background: #d4986a;
 box-shadow: 4px 4px 4px #828282;
 padding: 0px 20px 10px;
 margin: 30px;
@@ -141,8 +133,7 @@ margin: 0 0 5px 5px;
 .clearright {
 overflow: auto;
 }
-
-ul a:hover {
-color: #cc0099;
+a:hover {
+color: #ffffff;
 }
 
