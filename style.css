@@ -13,22 +13,92 @@ title {
 font-family:  jokerman, 'Griffy' ;
 }
 
+
 header {
 background: #074600;
-position: fixed;
+
 width: 100%;
 padding: 5px;
+padding-right: 0px;
 text-align: center;
 display: block;
+top: 0px;
+right: 0px;
+left: 0px;
+
 }
 
-main {
-width: 80%;
+header h1 {
 margin-left: auto;
 margin-right: auto;
+}
+
+
+nav {
+color: #fba7ab;
+height: 100%;
+float: left;
+
+width: 160px;
+
+font-weight: bold;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+nav a {
+text-decoration: none;
+color: #fba7ab; 
+}
+nav a:link {
+color:#fba7ab;
+}
+nav a:visited {
+color: #5fae57;
+}
+nav a:hover {
+color: #cccccc;
+}
+
+
+nav ul {
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px;
+margin-bottom: 5px;
+padding-bottom: 5px;
+padding-left: 20px;
+list-style-type: none;
+}
+
+nav li {
+margin-top: 0;
+margin-right: auto;
+margin-left: auto;
+
+}
+
+nav h5 {
+font-size: 1em;
+margin-top: 12px;
+margin-bottom: 12px;
+}
+nav h6 {
+text-indent: 1em;
+font-size: .8em;
+margin-top: 12px;
+margin-bottom: 12px;
+}
+main {
+
+margin-left: 160px;
+margin-right: auto;
 text-align: center;
-padding: 35px;
-padding-top: 100px;
+padding: 35px 0 35px 0;
+padding-bottom: 5px;
+background-color: #d4986a;
 
 }
 
@@ -44,7 +114,7 @@ h2 {
 
 color: #074600;
 font-family: "lucida Handwriting", cursive;
-margin-top: 45px;
+margin-top: 60px;
 margin-bottom: 25px;
 text-shadow: 2px 1px 1px #666;
 }
@@ -61,6 +131,8 @@ opacity: 0.4;
 padding: 10px;
 border-radius: 15px;
 margin-top: 22px;
+margin-right: 10px;
+margin-left: 10px;
 }
 
 p {
@@ -87,10 +159,14 @@ margin-bottom: 15px;
 }
 
 footer {
+background-color: #074600;
 font-style: italic;
 font-size: .8em;
 color: #000000;
+border: 2px ridge #330000;
 text-align: center;
+padding: 10px;
+
 }
 
 .bold {
@@ -115,25 +191,182 @@ font-style: italic;
 a {
 text-decoration: none;
 }
-
-
+a:visited {
+color: #5fae57;
+}
+a:hover {
+color: #cccccc;
+}
+main a:visited {
+color: #074600;
+}
+main A:hover {
+color: #cccccc;
+}
 #bodybox {
-background: #d4986a;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+min-width: 960px;
+max-width: 2048px;
+background-color: #0d4e4a;
 box-shadow: 4px 4px 4px #828282;
-padding: 0px 20px 10px;
-margin: 30px;
-margin-top: 0;
+
 
 }
 .float {
 float: right;
-margin: 0 0 5px 5px;
+margin: 0 10px 5px 5px;
 
+}
+.float1 {
+float: right;
+margin: 0 10px 15px 5px;
 }
 .clearright {
 overflow: auto;
 }
-a:hover {
-color: #ffffff;
-}
 
+#wih {
+margin-top: 100px;
+}
+#ttc {
+margin-top: 100px;
+}
+#pg {
+margin-top: 100px;
+}
+#rn {
+margin-top: 100px;
+}
+header, main, nav, footer, section, article, figure, figcaption, aside {
+display: block;
+}
+@media only screen and (max-width: 64em) {
+	main div figure a img {
+	width:300px;
+	height: 200px;
+	}
+	body {
+	margin: 0px;
+	}
+	#bodybox {
+	min-width: 0px;
+	width: auto;
+	box-shadow: none;
+	}
+	main {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 10px;
+	font-size: 95%;
+	}
+	h1 {
+	font-size: 1.75em;
+	}
+	nav {
+	float: none;
+	width: auto;
+	text-align: center;
+	padding: 0.5em;
+	}
+	nav li {
+	display: inline-block;
+	padding: 0.25em 0.75em 0.25em 0.75em;
+	}
+	footer {
+	margin-left: 0px;
+	}
+	#wih {
+	margin-top: 50px;
+	}
+	#ttc {
+	margin-top: 50px;
+	}
+	#pg {
+	margin-top: 50px;
+	}
+	#rn {
+	margin-top: 50px;
+	}
+	h2 {
+	margin-top: 30px;
+	}
+	.float {
+	float: right;
+	margin: 0 10px 5px 5px;
+	width: 205px;
+	height: 285px;
+	}
+	.float1 {
+	float: right;
+	margin: 0 10px 5px 5px;
+	width: 200px;
+	height: 200px;
+	}
+}
+@media only screen and (max-width: 37.5em) {
+	article img {
+	display: none;
+	}
+	body div a img {
+	display: none;
+	}
+	main div figure {
+	display: none;
+	}
+	main div img {
+	display: none;
+	}
+	
+	header {
+	padding-top: 1em;
+	}
+	main {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0.1em 1em 0.1em 1em;
+	font-size: 90%;
+	}
+	h1 {
+	font-size: 1.5em;
+	}
+	nav {
+	padding: 0px;
+	}
+	nav ul {
+	margin: 0px;
+	padding: 0px;
+	}
+	nav li {
+	display: block;
+	margin: 0px;
+	border-bottom: 2px solid #330000;
+	}
+	nav a {
+	display: block;
+	}
+	p {
+	margin: 10px;
+	}
+	#wih {
+	margin-top: 20px;
+	}
+	#ttc {
+	margin-top: 20px;
+	}
+
+	#pg {
+	margin-top: 20px;
+	}
+	#rn {
+	margin-top: 20px;
+	}
+	h2 {
+	margin-top: 12px;
+	}
+	h3 {
+	margin-top: 8px;
+	}
+	
+}
